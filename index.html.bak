@@ -7,7 +7,6 @@
     <fieldset>
           <legend><h2>My Info</h2></legend>
       	  <p><label><strong>First Name:&emsp;</strong></label><input type="text" name="first_name_field" placeholder="First Name"></p>
-		  <p><label><strong>Middle Intial:&emsp;</strong></label><input type="text" name="Middle_Intial_field" placeholder="Middle Intial"></p>
           <p><label><strong>Last Name:&emsp;</strong></label><input type="text" name="last_name_field" placeholder="Last Name"></p>
           <p><label><strong>Phone Number:&emsp;</strong></label><input type="text" name="phone_field" placeholder="Valid Phone Number"></p>
           <p><label><strong>Email Address:&emsp;</strong></label><input type="email" name="email_field" placeholder="Email Address"></p>
@@ -36,7 +35,7 @@
       <p><strong>Days Available:</strong></p>
         <ul style="list-style: none;">
           <li><input type="checkbox" name="available_field[]" value="Monday"><label>Monday</label></li>
-          <li><input type="checkbox" name="available_field[]" value="Tuesday"><label>TacoTuesday</label></li>
+          <li><input type="checkbox" name="available_field[]" value="Tuesday"><label>Tuesday</label></li>
           <li><input type="checkbox" name="available_field[]" value="Wednesday"><label>Wednesday</label></li>
           <li><input type="checkbox" name="available_field[]" value="Thursday"><label>Thursday</label></li>
           <li><input type="checkbox" name="available_field[]" value="Friday"><label>Friday</label></li>
@@ -47,7 +46,7 @@
          <textarea rows="5" cols="60" name="comments_field" placeholder="Please use this space to submit your comments."></textarea>
     </fieldset>
     <input type="hidden" name="hidden_field" value="kcain1">
-    <p><input type="submit" value="Submit!"></p>
+    <p><input type="submit" value="Submit"></p>
   </form>
 
 

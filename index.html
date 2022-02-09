@@ -1,0 +1,53 @@
+<html lang="en"><head>
+  <title>Lab 4 form</title>
+</head>
+<body>
+  <h1>Volunteer Form</h1>
+  <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post" target="_blank">
+    <fieldset>
+          <legend><h2>My Info</h2></legend>
+      	  <p><label><strong>First Name:&emsp;</strong></label><input type="text" name="first_name_field" placeholder="First Name"></p>
+          <p><label><strong>Last Name:&emsp;</strong></label><input type="text" name="last_name_field" placeholder="Last Name"></p>
+          <p><label><strong>Phone Number:&emsp;</strong></label><input type="text" name="phone_field" placeholder="Valid Phone Number"></p>
+          <p><label><strong>Email Address:&emsp;</strong></label><input type="email" name="email_field" placeholder="Email Address"></p>
+            <label><strong>Gender:</strong></label>
+              <ul style="list-style: none;">
+                <li><input type="radio" name="gender_field" value="Female"><label>Female</label></li>
+                <li><input type="radio" name="gender_field" value="Male"><label>Male</label></li>
+                <li><input type="radio" name="gender_field" value="Other"><label>Other</label></li>
+                <li><input type="radio" name="gender_field" value="Undisclosed"><label>Prefer not to identify</label></li>
+              </ul>
+          <div>
+            <label><strong>Age:</strong></label>
+              <select name="age_field">
+                 <option value="under 18">Under 18</option>
+                 <option value="18-24">18-24</option>
+                 <option value="25-34">25-34</option>
+                 <option value="35-44">35-44</option>
+                 <option value="45-54">45-54</option>
+                 <option value="55-64">55-64</option>
+                 <option value="over 65">65 and over</option>
+              </select>
+          </div>
+    </fieldset>
+    <fieldset>
+      <legend><h2>My Availability</h2></legend>
+      <p><strong>Days Available:</strong></p>
+        <ul style="list-style: none;">
+          <li><input type="checkbox" name="available_field[]" value="Monday"><label>Monday</label></li>
+          <li><input type="checkbox" name="available_field[]" value="Tuesday"><label>Tuesday</label></li>
+          <li><input type="checkbox" name="available_field[]" value="Wednesday"><label>Wednesday</label></li>
+          <li><input type="checkbox" name="available_field[]" value="Thursday"><label>Thursday</label></li>
+          <li><input type="checkbox" name="available_field[]" value="Friday"><label>Friday</label></li>
+          <li><input type="checkbox" name="available_field[]" value="Saturday"><label>Saturday</label></li>
+          <li><input type="checkbox" name="available_field[]" value="Sunday"><label>Sunday</label></li>
+        </ul>
+        <p><strong>Any Comments?</strong></p>
+         <textarea rows="5" cols="60" name="comments_field" placeholder="Please use this space to submit your comments."></textarea>
+    </fieldset>
+    <input type="hidden" name="hidden_field" value="kcain1">
+    <p><input type="submit" value="Submit"></p>
+  </form>
+
+
+</body></html>
